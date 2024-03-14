@@ -1,5 +1,5 @@
 {% set name = "polars-upgrade" %}
-{% set version = "0.2.4" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/polars_upgrade-{{ version }}.tar.gz
-  sha256: 927a95ec8f126610f10e0daabd4002b1bd0005bed28ab32c093e4fb99e49a8ef
+  sha256: d53c5a01813314ab3b171f1e5b9281a3203815f2e333466327efe393c70a3082
 
 build:
   entry_points:
